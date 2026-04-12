@@ -39,6 +39,22 @@ A comprehensive collection of all classic design patterns implemented in Java.
 - **[MVC](src/main/java/com/patterns/additional/mvc/notes.md)** - Separates concerns into Model, View, Controller
 - **[Dependency Injection](src/main/java/com/patterns/additional/dependencyinjection/notes.md)** - Inverts control of dependencies
 
+## Design Principles
+
+### SOLID Principles
+- **[Single Responsibility (SRP)](src/main/java/com/patterns/principles/solid/srp/notes.md)** - A class should have only one reason to change
+- **[Open/Closed (OCP)](src/main/java/com/patterns/principles/solid/ocp/notes.md)** - Open for extension, closed for modification
+- **[Liskov Substitution (LSP)](src/main/java/com/patterns/principles/solid/lsp/notes.md)** - Subtypes must be substitutable for their base types
+- **[Interface Segregation (ISP)](src/main/java/com/patterns/principles/solid/isp/notes.md)** - Clients should not depend on interfaces they don't use
+- **[Dependency Inversion (DIP)](src/main/java/com/patterns/principles/solid/dip/notes.md)** - Depend on abstractions, not concretions
+
+### General Principles
+- **[DRY](src/main/java/com/patterns/principles/dry/notes.md)** - Don't Repeat Yourself — every piece of knowledge has one authoritative representation
+- **[KISS](src/main/java/com/patterns/principles/kiss/notes.md)** - Keep It Simple, Stupid — avoid unnecessary complexity
+- **[YAGNI](src/main/java/com/patterns/principles/yagni/notes.md)** - You Aren't Gonna Need It — don't implement until actually needed
+- **[Law of Demeter](src/main/java/com/patterns/principles/lod/notes.md)** - Only talk to your immediate friends
+- **[Composition over Inheritance](src/main/java/com/patterns/principles/compositionoverinheritance/notes.md)** - Favour object composition over class inheritance
+
 ## Building
 
 ```bash
@@ -83,9 +99,21 @@ src/main/java/com/patterns/
 │   ├── strategy/
 │   ├── templatemethod/
 │   └── visitor/
-└── additional/
-    ├── nullobject/
-    ├── objectpool/
-    ├── mvc/
-    └── dependencyinjection/
+├── additional/
+│   ├── nullobject/
+│   ├── objectpool/
+│   ├── mvc/
+│   └── dependencyinjection/
+└── principles/
+    ├── solid/
+    │   ├── srp/
+    │   ├── ocp/
+    │   ├── lsp/
+    │   ├── isp/
+    │   └── dip/
+    ├── dry/
+    ├── kiss/
+    ├── yagni/
+    ├── lod/
+    └── compositionoverinheritance/
 ```
